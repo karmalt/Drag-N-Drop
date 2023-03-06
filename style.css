@@ -1,0 +1,29 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+    height: 100vh;
+    background-color: #4682b4;
+}
+
+.container{
+    width: 150px;
+    height: 150px;
+    border: 4px solid #000;
+    background-color: #fff;
+}
+.container.drag-over{
+    background-color: #333;
+    border: 4px dashed #fff;
+}
+
+img{
+    width: 150px;
+    height: 150px;
+}
